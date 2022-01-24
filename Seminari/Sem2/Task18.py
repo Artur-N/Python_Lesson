@@ -8,4 +8,4 @@ def TruthChec(x, y):
         for y in range(2):
             res = not(x or y) == (not x and not y)
             print(x, y, res)
-TruthChec(x,y)
+TruthChec(x, y)
