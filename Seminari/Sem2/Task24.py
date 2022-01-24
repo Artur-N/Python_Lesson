@@ -1,8 +1,6 @@
 # 24. Найти кубы чисел от 1 до N
 
-n = 6
-
-def Cube(N):
-    for i in range(1, N+1):
-        print (i**3, end='  ')
-Cube(n)
+def Cube(n):
+    for i in range(1, n+1):
+        print (f'Куб {i} = {i**3}')
+Cube(5)
