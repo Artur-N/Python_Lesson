@@ -19,4 +19,5 @@ def Max_of_3(a, b, c):
         return b
     else:
         return c
-print(Max_of_3(a, b, c))
+max = Max_of_3(a, b, c)
+print(max)
