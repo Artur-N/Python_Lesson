@@ -5,8 +5,7 @@ b = 5
 
 def Degree(a, b):
     for i in range(b):
-        c = a*i
-        return c #f'Число {a} в степени {i} = {a**i}')
+        c = a**(i+1)
+    return f'Число {a} в степени {b} = {c}'
 print(Degree(a, b))
-
 
