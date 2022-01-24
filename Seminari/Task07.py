@@ -11,7 +11,8 @@ else:
 print()
 
 # Функция
-def Show_numbers(N):
+
+def ShowNumbers(N):
     if N >= 0:
         for i in range(-N, N+1):
             print(i, end=' ')
@@ -19,4 +20,4 @@ def Show_numbers(N):
         for i in range(N, -N+1):
             print(i, end=' ')
 
-Show_numbers(n)
+ShowNumbers(n)
