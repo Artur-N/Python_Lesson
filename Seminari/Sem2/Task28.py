@@ -4,6 +4,8 @@ a = int(input('Введите число: '))
 
 def SumDigits(a):
     sum = 0
+    if a < 0:
+        a = -a
     while a != 0:
         sum += a % 10
         a = a // 10
