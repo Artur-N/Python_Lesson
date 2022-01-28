@@ -1,6 +1,9 @@
 # 2. Найти максимальное из пяти чисел
 
-a = [1, 3, 5, 4, 2]
+import random
+
+rndList = random.sample(range(0, 10), 5)
+print(rndList)
 
 def Max(a):
     max = 0
@@ -8,6 +11,6 @@ def Max(a):
         if a[i] > max:
             max = a[i]
     return max
-print(Max(a))
+print(Max(rndList))
 
 
