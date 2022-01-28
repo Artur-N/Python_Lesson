@@ -175,3 +175,8 @@ print(f(1))         # Целое
 print(f(2.3))       # 23
 print(f(28))        # None
 
+colors = ['red', 'green', 'blue']
+data = open('file.txt', 'a') # data - переменная для работы с файлом, open - функция для работы с файлом, 
+                             # text - текстовый файл,  a – открытие для добавления данных.
+data.writelines(colors) # разделителей не будет. 
+data.close()
