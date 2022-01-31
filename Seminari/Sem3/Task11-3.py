@@ -3,11 +3,14 @@
 n = 7
 
 def ListMulti3(n):
-    list = []
-    for i in range(n):
-        if i % 2 == 0:
-            list.append(3**i)
-        else:
-            list.append(-3**i)
-    return list
+    # list = []
+    # for i in range(n):
+    #     if i % 2 == 0:
+    #         list.append(3**i)
+    #     else:
+    #         list.append(-3**i)
+    # return list
+    return [((-3)**i) for i in range(n)] 
 print(ListMulti3(n))
+
+   
