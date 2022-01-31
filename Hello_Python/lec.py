@@ -1,6 +1,6 @@
 print('Hello, World')
 
-import Hello as d
+from Hello import f
 
-print(d.f(1))
+print(f(1))
 
