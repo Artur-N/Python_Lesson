@@ -3,9 +3,8 @@
 n = 123.456
 
 def SumDigits(a):
-    b = str(a)
     sum = 0
-    for i in b:
+    for i in str(a):
         if i != '.':
             sum += int(i)
     return sum
