@@ -2,10 +2,10 @@
 #  Пример: [1.1, 1.2, 3.1, 5, 10.01] => 0.19
 
 list1 = [1.1, 1.2, 3.1, 5, 10.01]
-list2 = []
 
-def Task24(list1):
-    for i in list1:
+def Task24(l1):
+    list2 = []
+    for i in l1:
         if type(i) == float:
             list2.append(round(i - i//1, 2))
     # print(list2)
