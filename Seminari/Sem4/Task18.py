@@ -7,10 +7,10 @@ print(listN)
 import random
 def Mix(list):
     for i in range(len(list)):
-        a = random.randint(i, len(list)-1)
+        index = random.randint(i, len(list)-1)
         temp = list[i]
-        list[i] = list[a]
-        list[a] = temp
+        list[i] = list[index]
+        list[index] = temp
     return list
 print(Mix(listN))    
 
