@@ -11,5 +11,6 @@ def MultiElements(list):
     for line in data:
         print(f'{int(line)}: {list[int(line)]}')
         multi *= list[int(line)]
+    data.close()
     return multi
 print(MultiElements(listN))
