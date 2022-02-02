@@ -213,7 +213,7 @@ print(concatenatio('a', '1', 'd', '2')) # a1d2
 # w+, r+
 
 colors = ['red', 'green', 'blue']
-data = open('file.txt', 'w') # data - переменная для работы с файлом, open - функция для работы с файлом, # text - текстовый файл.
+data = open('file.txt', 'w') # data - переменная для работы с файлом, open - функция для работы с файлом, # file.txt - текстовый файл.
 data.writelines(colors) # разделителей не будет. 
 data.write('Line 2\n')
 data.close()
