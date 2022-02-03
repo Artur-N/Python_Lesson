@@ -1,8 +1,9 @@
 # # Задать список из N элементов, заполненных числами из [-N, N]. 
 # # Найти произведение элементов на указанных позициях. Позиции хранятся в файле file.txt в одной строке одно число.
 
-n = 3
-listN = [i for i in range(-n, n+1)]
+import random 
+n = 10
+listN = [random.randint(-n, n) for i in range(n)]
 print(listN)
 
 def MultiElements(list):
